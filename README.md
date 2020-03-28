@@ -13,10 +13,10 @@ You're not required to print the board, but you will probably find it very usefu
 
 Your XiangqiGame class must include the following:
 
-An init method that initializes any data members.
-A method called get_game_state that just returns 'UNFINISHED', 'RED_WON' or 'BLACK_WON'.
-A method called is_in_check that takes as a parameter either 'red' or 'black' and returns True if that player is in check, but returns False otherwise.
-A method called make_move that takes two parameters - strings that represent the square moved from and the square moved to. For example, make_move('b3', 'b10'). If the square being moved from does not contain a piece belonging to the player whose turn it is, or if the indicated move is not legal, or if the game has already been won, then it should just return False. Otherwise it should make the indicated move, remove any captured piece, update the game state if necessary, update whose turn it is, and return True.
+- An init method that initializes any data members.
+- A method called get_game_state that just returns 'UNFINISHED', 'RED_WON' or 'BLACK_WON'.
+- A method called is_in_check that takes as a parameter either 'red' or 'black' and returns True if that player is in check, but returns False otherwise.
+- A method called make_move that takes two parameters - strings that represent the square moved from and the square moved to. For example, make_move('b3', 'b10'). If the square being moved from does not contain a piece belonging to the player whose turn it is, or if the indicated move is not legal, or if the game has already been won, then it should just return False. Otherwise it should make the indicated move, remove any captured piece, update the game state if necessary, update whose turn it is, and return True.
 Feel free to add whatever other classes, methods, or data members you want. All data members must be private. Every class should have an init method that initializes all of the data members for that class.
 
 Here's a very simple example of how the class could be used:
