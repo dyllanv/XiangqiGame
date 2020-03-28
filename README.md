@@ -1,7 +1,7 @@
 # XiangqiGame
 Xiangqi board game (Chinese chess): Portfolio Project for CS 162, with a few added features.
 
-Write a class named XiangqiGame for playing an abstract board game called xiangqi. Please read the "Board", "Rules", and "Pieces" sections on the Wikipedia page. You do not have to implement the rules regarding perpetual check or chasing. You do need to correctly handle stalemate. You also need to correctly handle all piece-specific rules, e.g. generals aren't allowed to "see" each other, horses can be blocked, elephants can't cross the river, etc.
+"Write a class named XiangqiGame for playing an abstract board game called xiangqi. Please read the "Board", "Rules", and "Pieces" sections on the Wikipedia page. You do not have to implement the rules regarding perpetual check or chasing. You do need to correctly handle stalemate. You also need to correctly handle all piece-specific rules, e.g. generals aren't allowed to "see" each other, horses can be blocked, elephants can't cross the river, etc.
 
 A general is in check if it could be captured on the opposing player's next move. A player cannot make a move that puts or leaves their general in check. The Wikipedia page says "The game ends when one player captures the other's general", but it's more accurate to say that it ends when one player checkmates the other's general. You don't actually capture a general, instead you have to put it in such a position that it cannot escape being in check, meaning that no matter what, it could be captured on the next move. This works the same as in chess, if you're familiar with that game.
 
@@ -26,4 +26,4 @@ move_result = game.make_move('c1', 'e3')
 black_in_check = game.is_in_check('black')
 game.make_move('e7', 'e6')
 state = game.get_game_state()
-The file must be named: XiangqiGame.py
+The file must be named: XiangqiGame.py"
