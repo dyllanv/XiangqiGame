@@ -1,5 +1,5 @@
 # XiangqiGame
-Xiangqi board game (Chinese chess): Portfolio Project for CS 162, with a few added features.
+Xiangqi board game (Chinese chess): Portfolio Project for CS 162, with a few added features. Board display and Play class (to simulate a game based off user input) added:
 
 "Write a class named XiangqiGame for playing an abstract board game called xiangqi. Please read the "Board", "Rules", and "Pieces" sections on the Wikipedia page. You do not have to implement the rules regarding perpetual check or chasing. You do need to correctly handle stalemate. You also need to correctly handle all piece-specific rules, e.g. generals aren't allowed to "see" each other, horses can be blocked, elephants can't cross the river, etc.
 
